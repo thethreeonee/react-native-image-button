@@ -6,7 +6,7 @@
 "use strict";
 
 import React from "react-native";
-import ImageButton from "react-native-image-button";
+import ImageButton from "react-native-img-button";
 
 let {
   Dimensions,
