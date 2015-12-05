@@ -25,7 +25,7 @@ export default class Main extends React.Component {
   render() {
     return (
       <View style={ styles.container }>
-        <VRButton
+        <ImageButton
           style={ styles.btn }
           appearance={ {
             normal: require("btn_normal.png"),
