@@ -1,6 +1,6 @@
-#React Native Image Button
+# React Native Image Button
 
-##Usage
+## Usage
 
 ```javascript
 "use strict";
