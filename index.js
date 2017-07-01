@@ -1,14 +1,13 @@
-"use strict";
+'use strict';
 
-import React from "react-native";
-
-let {
+import React, { Component } from 'react';
+import {
+  View,
   Image,
   StyleSheet,
-  View,
-} = React;
+} from 'react-native';
 
-export default class ImageButton extends React.Component {
+export default class ImageButton extends Component {
   constructor(props: {}) {
     super(props);
 

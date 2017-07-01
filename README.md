@@ -1,21 +1,19 @@
-#React Native Image Button
+# React Native Image Button
 
-##Usage
+## Usage
 
 ```javascript
-"use strict";
 
-import React from "react-native";
-import ImageButton from "react-native-img-button";
-
-let {
+import React from 'react';
+import ImageButton from 'react-native-img-button';
+import {
   Dimensions,
   NetInfo,
   StyleSheet,
   Text,
   View,
   Image,
-} = React;
+} from 'react-native';
 
 export default class Main extends React.Component {
   onPressButton() {
@@ -37,7 +35,7 @@ export default class Main extends React.Component {
   }
 }
 
-let styles = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
