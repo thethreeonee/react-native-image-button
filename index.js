@@ -7,7 +7,7 @@ import {
   StyleSheet,
 } from 'react-native';
 
-export default class ImageButton extends Component {
+export default class ImageButton extends React.Component {
   constructor(props: {}) {
     super(props);
 
@@ -65,3 +65,4 @@ let styles = StyleSheet.create({
     height: null
   }
 });
+
